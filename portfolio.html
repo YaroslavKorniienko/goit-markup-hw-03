@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -76,7 +80,7 @@
                   width="370"
                   height="294"
                 />
-                <div class="portfolio container">
+                <div class="portfolio-container">
                   <h2 class="portfolio-title">Технокряк</h2>
                   <p class="portfolio-text">Веб-сайт</p>
                 </div>
@@ -90,7 +94,7 @@
                   width="370"
                   height="294"
                 />
-                <div class="portfolio container">
+                <div class="portfolio-container">
                   <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
                   <p class="portfolio-text">Дизайн</p>
                 </div>
@@ -104,7 +108,7 @@
                   width="370"
                   height="294"
                 />
-                <div class="portfolio container">
+                <div class="portfolio-container">
                   <h2 class="portfolio-title">Ресторан Seafood</h2>
                   <p class="portfolio-text">Приложение</p>
                 </div>
@@ -113,7 +117,7 @@
             <li class="portfolio-item">
               <a href="#" class="portfolio-link link"
                 ><img src="./images/prime.jpg" alt="наушники" width="370" height="294" />
-                <div class="portfolio container">
+                <div class="portfolio-container">
                   <h2 class="portfolio-title">Проект Prime</h2>
                   <p class="portfolio-text">Маркетинг</p>
                 </div>
@@ -122,7 +126,7 @@
             <li class="portfolio-item">
               <a href="#" class="portfolio-link link"
                 ><img src="./images/boxes.jpg" alt="две коробки" width="370" height="294" />
-                <div class="portfolio container">
+                <div class="portfolio-container">
                   <h2 class="portfolio-title">Проект Boxes</h2>
                   <p class="portfolio-text">Приложение</p>
                 </div>
@@ -136,7 +140,7 @@
                   width="370"
                   height="294"
                 />
-                <div class="portfolio container">
+                <div class="portfolio-container">
                   <h2 class="portfolio-title">Inspiration has no Borders</h2>
                   <p class="portfolio-text">Веб-сайт</p>
                 </div>
@@ -145,7 +149,7 @@
             <li class="portfolio-item">
               <a href="#" class="portfolio-link link"
                 ><img src="./images/book.jpg" alt="открытая книга" width="370" height="294" />
-                <div class="portfolio container">
+                <div class="portfolio-container">
                   <h2 class="portfolio-title">Издание Limited Edition</h2>
                   <p class="portfolio-text">Дизайн</p>
                 </div>
@@ -154,7 +158,7 @@
             <li class="portfolio-item">
               <a href="#" class="portfolio-link link"
                 ><img src="./images/lab.jpg" alt="этикетка LAB" width="370" height="294" />
-                <div class="portfolio container">
+                <div class="portfolio-container">
                   <h2 class="portfolio-title">Проект LAB</h2>
                   <p class="portfolio-text">Маркетинг</p>
                 </div>
@@ -168,7 +172,7 @@
                   width="370"
                   height="294"
                 />
-                <div class="portfolio container">
+                <div class="portfolio-container">
                   <h2 class="portfolio-title">Growing Business</h2>
                   <p class="portfolio-text">Приложение</p>
                 </div>
@@ -179,28 +183,32 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="logo" href="./index.html" lang="en">Web<span class="logo-white">Studio</span> </a>
-      <address class="footer-addres">
-        <ul class="footer-contacts-list list">
-          <li>
-            <a
-              class="footer-addres-link link"
-              href="https://goo.gl/maps/2r5H82L8zbBqU4vVA"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li class="footer-contacts-item">
-            <a class="footer-contacts-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="footer-contacts-item">
-            <a class="footer-contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a class="footer-logo" href="./index.html" lang="en"
+          >Web<span class="logo-white">Studio</span>
+        </a>
+        <address class="footer-addres">
+          <ul class="footer-contacts-list list">
+            <li class="footer-contacts-item">
+              <a
+                class="footer-addres-link link"
+                href="https://goo.gl/maps/2r5H82L8zbBqU4vVA"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li class="footer-contacts-item">
+              <a class="footer-contacts-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="footer-contacts-item">
+              <a class="footer-contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
